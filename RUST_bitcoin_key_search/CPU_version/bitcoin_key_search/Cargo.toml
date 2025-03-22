@@ -1,0 +1,16 @@
+[package]
+name = "bitcoin_key_search"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+secp256k1 = { version = "0.28", features = ["rand-std"] }
+sha2 = "0.10"
+ripemd = "0.1"
+base58 = "0.2"
+rand = "0.8"
+crossbeam = "0.8"
+lazy_static = "1.4"
+hex = "0.4"
+num_cpus = "1.16"
+ctrlc = "3.4"
